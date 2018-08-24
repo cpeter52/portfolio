@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #298FA6;
+    background: rgb(130,143,166);
+    background: linear-gradient(0deg, rgba(130,143,166,0.9500175070028011) 0%, rgba(0,89,243,0.9640231092436975) 30%);
     
 }
 
@@ -16,7 +17,7 @@ a.navbar-brand {
 nav.main-navigation {
     position: relative;
     padding-bottom: 15px;
-    background-color: #F2F2F2;
+    background-color: rgba(0,89,243,0.9640231092436975);
 }
 
 nav.main-navigation ul.nav-list {
@@ -41,7 +42,7 @@ a.nav-link {
     font-weight: 600;
     cursor: pointer;
     position: relative;
-    color: #FF891E;
+    color: #F3A500;
 }
 
 @keyframes FadeIn {
@@ -132,30 +133,31 @@ a.nav-link {
 }
 
 .jumbotron {
-    background-image: url(images/jumbotron_image2.jpg);
+    background-image: url(images/jumbotronimage3.jpg);
     background-size: cover;
     height: 100VH;
-    color: #F2B441;
 }
 
 .jumbotron hr {
-    border-top-color: #F2B441;;
+    border-top-color: #FFBF39;
 }
 
 .jumbotron h1 {
     padding-top: 270px;
     font-family: 'Permanent Marker', cursive;
+    
 }
 
 .display-4 {
     text-align: center;
-    color: #F2B441;
+    color: #F3A500;
     
 }
 
 .tron-subline {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
+    color: #F3A500;
 }
 .container-about {
     max-width: 500px;
@@ -179,7 +181,7 @@ h2.about-heading {
     padding-top: 5%;
     font-family: 'Montserrat', sans-serif;
     font-size: 67px;
-    color: #F2B441;
+    color: #F3A500;
     font-weight: 700;
     letter-spacing: -1.5px;
     line-height: 95px;
@@ -189,7 +191,7 @@ h2.about-heading {
     margin: 15 0 50px 0;
     display: block;
     border: none;
-    background: linear-gradient(to right, #298FA6, #F2B441, #F25305, #F2B441, #298FA6);
+    background: linear-gradient(to right, #298FA6, #F3A500, #F25305, #F3A500, #298FA6);
     height: 4px;
 }
 
@@ -245,18 +247,64 @@ li.about-me {
     font-size: 14px;
 }
 
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    color: silver;
+    text-align: center;
+}
 
+.work {
+    padding: 275 400px;
+    text-align: center;
+}
 
+.work .box {
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer
+}
 
+.port-header {
+    text-align: center;
+    color: #F3A500;
+    font-size: 94px;
+}
 
+.work .box .hoverbox { 
+    background: rgba(255, 191, 57, .9);
+    position: relative;
+    left: -100%;
+    height: 100%;
+    position: 100%;
+    transition: all .5s ease;
+    padding: 35px 15px;
+    text-align: center;
+    opacity: 0;
+}
 
+.work .box:hover .hoverbox{
+    opacity: 1;
+    left:0;
+}
 
+.work .box .hoverbox h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
 
-
-
-
-
-
+.work .box .hoverbox h5 {
+    color: white;
+    font-size: 18px;
+    
+}
 
 
 
