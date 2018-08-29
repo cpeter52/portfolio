@@ -1,154 +1,131 @@
 <html>
     <head>
-
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>        
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=El+Messiri" rel="stylesheet">
         <script src="index.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-        
     </head>
     <body>
-
-<!--
-<!------------------------------------------------Header Section------------------------------------------------>
-    
-        <nav class="main-navigation">
-            <div class="container">
-                <div class="navbar-header animated fadeInUp">
-                    <a class="navbar-brand" href="#"><img class"img-responsive" src="images/cp_logo.png"></a>
+            <nav class="navbar navbar-expand-lg bg-dark fixed-top" id="mainNav">
+                <div class="container">
+                    <a class="navbar-brand js-scroll-trigger" href="#page-top">Chris Peterson</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                    </div>
                 </div>
-
-                <ul class="nav-list">
-                    <li class="nav-list-item">
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-list-item">
-                        <a href="#" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-list-item">
-                        <a href="#" class="nav-link">Works</a>
-                    </li>
-                    <li class="nav-list-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    
-<!------------------------------------------------ End Header Section ------------------------------------------------>
+            </nav>
 
 <!------------------------------------------------ Jumbotron ------------------------------------------------>
-        <div class="jumbotron">
-            <h1 class="display-4">Christopher Peterson</h1>
-            <hr class="my-3">
-            <p class= "tron-subline">Web Developer &middot; Gamer &middot; Freelancer </p>    
-        </div>
+            <div class="jumbotron">
+                <h1 class="display-4">Christopher Peterson</h1>
+                <hr class="my-3">
+                <p class= "tron-subline">Web Developer &middot; Gamer &middot; Freelancer </p>    
+            </div>
 <!------------------------------------------------ End Jumbotron ------------------------------------------------>
-
 <!------------------------------------------------ About Me Section ------------------------------------------------>
 
-        <div class="container">
-                <h2 class="about-heading">Hi, I'm Christopher Peterson, your friendly neighborhood Web Developer. Growing, learning, and building my skills everyday.</h2>
+        <div class="section" id="one">
+            <div class="container">
+                <h2 class="about-heading">About Me</h2>
                 <hr class="gradient_line" />
-        </div>
-      
-<!------------------------------------------------ Flip Cards ------------------------------------------------>        
-
-        <div class="container">    
-
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front">
-                            <img src="images/ffast_logo.png">
-                        </div>
-                        <div class="back">
-                            <!-- back content -->
-                            <h2 class="edu-bout">Work Experience</h2>
-                                <p>
-                                    <ul>
-                                        <li class="about-me">Filtersfast.com/Acepools.com - Web Developer (June 2016 - Present)</li>
-                                        <li class="about-me">Developed front end designs and back-end solutions to manage customer orders, product data, and interactive ordering applications. Used Amazon API to automate orders and delivery information from back-end. Asisted in managing wordpress and shopify sites.</li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                </div>
-
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper">
-                        <div class="front">
-                            <img src="images/me.jpg">
-                        </div>
-                        <div class="back">
-                            <!-- back content -->
-                            <h2 class="edu-bout">About Me</h2>
-                                <p>
-                                    <ul>
-                                        <li class="about-me">I'm an Army Officer in the NC National Guard from Clinton NC, currently living in Charlotte NC.</li>
-                                        <li class="about-me">I love gaming, specifically, sports games, shooters, and RPGs. I like to watch football, basketball, and olympic wrestling.</li>
-                                    </ul>
-                                </p>
-                        </div>
+                <img src="images/me.jpg" class="about-image">
+                <p class="about-para">I'm a Web developer living in Charlotte NC who enjoys sports, gaming, and to keep up with web development. I graduated from the Univeristy of North Carolina at Charlotte with a degree in Computer Science. I'm currently working at a company native to Charlotte as a web developer and taking on freelance projects. I prefer to do front-end development, but I am adept at front and back end development.</p>
+                    <div class="container social">
+                        <a href="https://www.linkedin.com/in/chris-peterson-81765bb0/"><img src="images/linkedin_icon.png"></a>
+                        <a href="https://github.com/cpeter52"><img src="images/github.png"></a>
                     </div>
             </div>
-            
-                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                        <div class="flipper">
-                            <div class="front">
-                                <img src="images/uncc_logo.png">
-                            </div>
-                            <div class="back">
-                                <!-- back content -->
-                                <h2 class="edu-bout">Education</h2>
-                            <p>
-                                <ul>
-                                    <li class="about-me">Graduated from The University of North Carolina at Charlotte in 2017.</li>
-                                    <li class="about-me">Degree - Major: Computer Science Minor: Military Science</li>
-                            </div>
-                        </div>
-                </div>
-        </div>
-<!------------------------------------------------ End Flip Cards ------------------------------------------------>            
-            
-<!------------------------------------------------ Projects Section ------------------------------------------------>               
-
-        <div class="work">
-            <h2 class="port-header">Portfolio</h2>
-                <div class="box" style="background: url(images/work.jpg) no-repeat center center; 
-                background-size: 100% 100%;"> 
-                    <div class="hoverbox">
-                        <h3>Project Title</h3>
-                        <h5>Web Design</h5>
-                    </div>
-                </div>
-
-                <div class="box" style="background: url(images/jumbotron_image.jpeg) no-repeat center center; 
-                background-size: 100% 100%;"> 
-                    <div class="hoverbox">
-                        <h3>Project Title</h3>
-                        <h5>Web Design</h5>
-                    </div>
-                </div>
-
-                <div class="box" style="background: url(images/jumboimage2.jpg) no-repeat center center; 
-                background-size: 100% 100%;"> 
-                    <div class="hoverbox">
-                        <h3>Project Title</h3>
-                        <h5>Web Design</h5>
-                    </div>
-                </div>
         </div>
 
+        <div class="section" id="two">
+            <div class="container">
+                <h2 class="lang-header">Programming Languages and Tools</h2>
+                    <!--<p class="about-lang">HTML, CSS, JavaScipt, Java, jQuery, ASP Classic, SQL, MYSQL, PHP</p>-->
+                    <div class="container buttons">
+                        <button class="button-1">HTML</button>
+                        <button class="button-1 css">CSS</button>
+                        <button class="button-1 js">JavaScript</button>
+                        <button class="button-1 jv">Java</button>
+                        <button class="button-1 jq">jQuery</button>
+                        <button class="button-1 asp">ASP</button>
+                        <button class="button-1 sql">SQL/MYSQL</button>
+                        <button class="button-1 php">PHP</button>
+                        <button class="button-1 wp">Wordpress</button>
+                    </div>
+            </div>
+        </div>
+ <!------------------------------------------------ End About Me Section ------------------------------------------------> 
+ <!--------------------------------------------------Portfolio Section ----------------------------------------------------->
 
+ <div class="work">
+        <h2 class="port-header">Portfolio</h2>
+            <div class="box" style="background: url(images/work.jpg) no-repeat center center; 
+            background-size: 100% 100%;"> 
+                <div class="hoverbox">
+                    <h3>Project Title</h3>
+                    <h5>Web Design</h5>
+                </div>
+            </div>
 
-<!------------------------------------------------ FooterSection ------------------------------------------------>
+            <div class="box" style="background: url(images/jumbotron_image.jpeg) no-repeat center center; 
+            background-size: 100% 100%;"> 
+                <div class="hoverbox">
+                    <h3>Project Title</h3>
+                    <h5>Web Design</h5>
+                </div>
+            </div>
 
-    <div class="footer">
-        <p>Site designed by Chris Peterson</p>
+            <div class="box" style="background: url(images/jumboimage2.jpg) no-repeat center center; 
+            background-size: 100% 100%;"> 
+                <div class="hoverbox">
+                    <h3>Project Title</h3>
+                    <h5>Web Design</h5>
+                </div>
+            </div>
+
+            <div class="box" style="background: url(images/work.jpg) no-repeat center center; 
+            background-size: 100% 100%;"> 
+                <div class="hoverbox">
+                    <h3>Project Title</h3>
+                    <h5>Web Design</h5>
+                </div>
+            </div>
+
+            <div class="box" style="background: url(images/jumbotron_image.jpeg) no-repeat center center; 
+            background-size: 100% 100%;"> 
+                <div class="hoverbox">
+                    <h3>Project Title</h3>
+                    <h5>Web Design</h5>
+                </div>
+            </div>
+
+            <div class="box" style="background: url(images/jumboimage2.jpg) no-repeat center center; 
+            background-size: 100% 100%;"> 
+                <div class="hoverbox">
+                    <h3>Project Title</h3>
+                    <h5>Web Design</h5>
+                </div>
+            </div>
     </div>
 
-
+ <!-------------------------------------------------- End Portfolio Section -----------------------------------------------------> 
+ 
+        <div class="footer">
+            Site designed by Chris Peterson
+        </div>
     </body>
-    
 </html>
