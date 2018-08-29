@@ -8,11 +8,21 @@ header {
     }
   }
   
-  section {
+section {
     padding: 150px 0;
   }
 
-  .jumbotron {
+.nav-item {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+}
+
+.jumbotron {
     background-image: url("images/jumtron.jpg");
     height: 100VH;
     width: 100%;
@@ -20,28 +30,28 @@ header {
     margin-bottom: 0px;
   }
 
-  .display-4 {
+.display-4 {
     font-family: 'El Messiri', sans-serif;
     text-align: center;
     color: orange;
     font-weight: 500;
   }
 
-  .my-3 {
+.my-3 {
       border-top-color: orange;
       width: 50%;     
   }
 
-  .tron-subline {
+.tron-subline {
       color: orange;
       text-align: center;
       font-family: 'El Messiri', sans-serif; 
   }
 
-  h2.about-heading {
+h2.about-heading {
+    font-family: 'El Messiri', sans-serif;
     padding-top: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #F3A500;
     font-weight: 700;
     line-height: 95px;
@@ -83,13 +93,17 @@ header {
 }
 
 .lang-header {
-    color: darkslategrey;
+    font-family: 'El Messiri', sans-serif;
+    padding-top: 20px;
+    font-size: 3rem;
+    color: darkslategray;
+    font-weight: 700;
+    line-height: 95px;
     text-align: center;
-    padding: 25px;
 }
 
 .footer {
-    background-color: blue;;
+    background-color: #007bff;
     left: 0;
     margin-bottom: 0;
     width: 100%; 
@@ -275,4 +289,35 @@ header {
 .social {
     text-align: center;
     padding: 20px;
+}
+
+@media (min-width:769px) and (max-width:1025px) {
+    .jumbotron {
+        max-width: 100%;
+        height: 600px;
+        width: auto/9;
+    }
+
+    .display-4 { 
+        font-size: 2rem;
+        margin-bottom: 0;
+      }
+    
+    .my-3 {
+        display: none;
+    }
+
+    .lang-header {
+        width: 710px;
+    }
+
+    .work {
+        padding: 20px 140px;
+    }
+}
+
+@media (min-width: 801px) {
+    .lang-header {
+        width: 910px;
+    }
 }
