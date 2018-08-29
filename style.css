@@ -316,7 +316,7 @@ h2.about-heading {
     }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 801px) and (max-width:1025px){
     .lang-header {
         width: 910px;
     }
